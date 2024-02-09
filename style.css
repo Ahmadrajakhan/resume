@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  overflow-x: hidden;
+}
+/* =====navbar===== */
+
+#main {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(2, 2, 53);
+  align-items: center;
+}
+
+#midnav {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 20px 0px;
+}
+#midnav div a {
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+}
+#midnav div a:hover {
+  color: blue;
+}
+/*======navbar end======== */
+/* ===========hero====== */
+#hero {
+  background-color: rgb(2, 2, 50);
+}
+#i {
+  color: silver;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 60px 0px 0px 100px;
+}
+#full {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0px 0px 20px 100px;
+}
+
+#previous a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: olivedrab;
+  margin-left: 100px;
+  padding: 8px 5px 8px 5px;
+  width: 170px;
+}
+#previous a:hover {
+  background-color: white;
+  color: olivedrab;
+}
+#hero1 {
+  background-color: rgb(2, 2, 50);
+  height: 327px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+}
+#stack {
+  margin-top: 40px;
+  margin-left: -80px;
+}
+#about {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+#fullstack {
+  color: rgb(100, 97, 97);
+  padding-top: 10px;
+}
+#hireme {
+  display: flex;
+  margin-top: 20px;
+}
+#hire a {
+  text-decoration: none;
+  color: white;
+  background-color: olivedrab;
+  border: 2px solid rgb(2, 2, 80);
+  padding: 8px 5px 8px 5px;
+  margin-right: 15px;
+}
+#resume a {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  border: 2px solid rgb(2, 2, 80);
+  padding: 8px 5px 8px 5px;
+}
+#hire a:hover {
+  background-color: white;
+  color: olivedrab;
+}
+#resume a:hover {
+  background-color: white;
+  color: olivedrab;
+}
