@@ -44,7 +44,7 @@ html {
   color: silver;
   font-size: 32px;
   font-weight: 700;
-  padding: 113px 0px 0px 100px;
+  padding: 133px 0px 0px 100px;
 }
 @media (max-width: 425px) {
   #i {
@@ -96,7 +96,6 @@ html {
 }
 @media (max-width: 425px) {
   #hero1 {
-    height: 327px;
     display: block;
     padding: 60px 0px 30px 60px;
     overflow-x: hidden;
