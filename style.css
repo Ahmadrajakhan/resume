@@ -17,6 +17,8 @@ html {
   justify-content: space-evenly;
   background-color: rgb(2, 2, 53);
   align-items: center;
+  position: sticky;
+  top: 0px;
   overflow-x: hidden;
 }
 
@@ -24,8 +26,10 @@ html {
   display: flex;
   justify-content: center;
   padding: 20px 0px 20px 0px;
+
   overflow-x: hidden;
 }
+
 #midnav div a {
   text-decoration: none;
   padding: 15px;
@@ -36,6 +40,25 @@ html {
 }
 /*======navbar end======== */
 /* ===========hero====== */
+#linkedin {
+  position: absolute;
+  top: 300px;
+  left: 1484px;
+  overflow-x: hidden;
+}
+@media (max-width: 425px) {
+  #linkedin {
+    position: absolute;
+    top: 430px;
+    left: 390px;
+  }
+}
+#linkedin li {
+  list-style-type: none;
+  font-size: 30px;
+  overflow-x: hidden;
+}
+
 #hero {
   background-color: rgb(2, 2, 50);
   overflow-x: hidden;
@@ -44,7 +67,7 @@ html {
   color: silver;
   font-size: 32px;
   font-weight: 700;
-  padding: 133px 0px 0px 100px;
+  padding: 113.5px 0px 0px 100px;
 }
 @media (max-width: 425px) {
   #i {
@@ -86,6 +109,9 @@ html {
 #previous a:hover {
   background-color: white;
   color: olivedrab;
+}
+#image {
+  box-shadow: 12px 12px 5px rgb(20, 1, 1);
 }
 #hero1 {
   display: flex;
@@ -164,4 +190,114 @@ html {
 #resume a:hover {
   background-color: white;
   color: olivedrab;
+}
+/*=========hero end========= */
+/* ========contact======== */
+#contactmain {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  overflow-x: hidden;
+}
+@media (max-width: 425px) {
+  #contactmain {
+    display: block;
+  }
+}
+#con {
+  padding: 80px 0px 0px 0px;
+}
+@media (max-width: 425px) {
+  #con {
+    padding: 20px 0px 0px 50px;
+  }
+}
+
+#contact {
+  color: rgb(130, 9, 9);
+  font-weight: 500;
+}
+#drop {
+  font-size: 40px;
+  font-weight: 600;
+  color: blue;
+  padding: 10px;
+}
+@media (max-width: 425px) {
+  #drop {
+    font-size: 32px;
+    padding: 6px;
+  }
+}
+#mobile {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 20px 0px 15px 0px;
+}
+#mobile a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 425px) {
+  #mobile {
+    font-size: 16px;
+    margin: 14px 0px 10px 0px;
+  }
+}
+#mail {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 20px 0px 15px 0px;
+}
+#mail a:hover {
+  text-decoration: none;
+}
+@media (max-width: 425px) {
+  #mail {
+    font-size: 16px;
+    margin: 10px 0px 8px 0px;
+  }
+}
+#form {
+  padding: 0px;
+}
+@media (max-width: 425px) {
+  #form {
+    padding: 8px 0px 10px 30px;
+  }
+}
+input[type="text"],
+input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  margin: 12px;
+  font-size: 20px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px black;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 20px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px black;
+}
+#submit {
+  width: 300px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 20px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px black;
+  background-color: rgb(2, 2, 80);
+}
+#submit:hover {
+  background-color: bisque;
+}
+#submit a {
+  text-decoration: none;
+  color: rgb(68, 66, 66);
 }
